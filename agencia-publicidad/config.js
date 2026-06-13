@@ -1,5 +1,5 @@
 /**
- * CONFIGURACIÓN — Agencia de Publicidad
+ * CONFIGURACIÓN — Todo Marketing
  *
  * 1. Cuando tengas la URL de tu Apps Script (termina en /exec), pégala en
  *    sheetsEndpointBase. El dashboard agrega automáticamente "?hoja=..."
@@ -10,14 +10,14 @@
  */
 
 window.DASHBOARD_CONFIG = {
-  nombreCliente: "Agencia de Publicidad",
+  nombreCliente: "Todo Marketing",
   subtitulo: "Dashboard de Cobros y Pagos",
   moneda: "USD",
   localeNumeros: "es-SV",
 
   // <-- PEGA AQUÍ la URL de tu Apps Script (termina en /exec). Deja vacío
   // para trabajar solo con datos de ejemplo.
-  sheetsEndpointBase: "",
+  sheetsEndpointBase: "https://script.google.com/macros/s/AKfycbxtH0Fq3zGXdoFWnPSBFDOPIdkKV44idPOeqNjDGnevu86TC0Ze095vnffbw7D9FAtIkQ/exec",
 
   colores: {
     primario: "#16213E",  // azul marino (Crezka)
